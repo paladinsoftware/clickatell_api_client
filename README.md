@@ -32,7 +32,7 @@ First of all, configure your client.
 ClickatellApiClient.configure do |config|
   config.api_key = '123'
   config.us_api_key = '234'
-  config.phone_number '+1324324231'
+  config.phone_number = '+1324324231'
 end
 ```
 
