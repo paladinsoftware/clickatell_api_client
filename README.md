@@ -1,5 +1,9 @@
 # ClickatellApiClient
 
+[![Gem Version](https://badge.fury.io/rb/clickatell_api_client.svg)](https://badge.fury.io/rb/clickatell_api_client)
+[![Build Status](https://travis-ci.org/piotrjaworski/clickatell_api_client.svg?branch=master)](https://travis-ci.org/piotrjaworski/clickatell_api_client)
+[![Maintainability](https://api.codeclimate.com/v1/badges/c4b1e02d0a40e9576cea/maintainability)](https://codeclimate.com/github/piotrjaworski/clickatell_api_client/maintainability)
+
 Ruby gem which is a wrapper for [Clickatell](https://www.clickatell.com/) API.
 It allows to send a message and supports sending messages to the US (two way message) and to the rest of the World.
 Gem automatically check if a number is from the USA and which type of a message should be used (two way or not).
